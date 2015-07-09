@@ -9,9 +9,9 @@ This microservice adds the ability to push messages to android devices, running 
 Once your service is running all you need to do is to issue commands to one of the following URLs at:
 
 ```
-curl -X PUT    http://localhos:9000/regid/<id>  - Register Device ID (issued at App start)
-curl -X DELETE http://localhos:9000/regid/<id>  - Unregister Device ID
-curl -X POST   http://localhos:9000/pushto/<id> - Push a default message to Device with ID id
+curl -X PUT    http://localhost:9000/regid/<id>  - Register Device ID (issued at App start)
+curl -X DELETE http://localhost:9000/regid/<id>  - Unregister Device ID
+curl -X POST   http://localhost:9000/pushto/<id> - Push a default message to Device with ID id
 ```
 
 ### Compilation/Running the Server  ###
