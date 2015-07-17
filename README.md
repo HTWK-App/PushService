@@ -1,6 +1,10 @@
 HTWK Push Microservice - Preview
 =================================
 [![Build Status](https://snap-ci.com/HTWK-App/PushService/branch/master/build_image)](https://snap-ci.com/HTWK-App/PushService/branch/master)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/HTWK-App/PushService/blob/master/LICENSE)
+[![Language](https://img.shields.io/badge/language-Scala%20(2.11.7)-blue.svg)](http://www.scala-lang.org/)
+[![Framework](https://img.shields.io/badge/framework-PlayFramework%20(2.3.9)-blue.svg)](https://www.playframework.com/)
+[![Lines of Code](https://img.shields.io/badge/loc-~103-lightgrey.svg)]()
 
 This microservice adds the ability to push messages to android devices, running the HTWK-App (Push branch). It's just a preview and not everything is working by now. The Idea was to NOT show a notification at every push, only at a selection of pushed messages. Unfortunately, this isn't possible with the default Cordova Push-Plugin.
 
